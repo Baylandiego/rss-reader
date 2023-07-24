@@ -43,7 +43,8 @@ h1 {
   font-size: 14px;
 }
 
-.feed-item a {
+.feed-item a,
+.feed-list a {
   color: #007bff;
   text-decoration: none;
 }
@@ -58,26 +59,28 @@ body.dark-mode {
   color: #ffffff;
 }
 
-.sidebar.dark-mode {
+.dark-mode .sidebar {
   background-color: #333333;
 }
 
-.feed-item.dark-mode {
+.dark-mode .feed-item {
   border-color: #666666;
 }
 
-.feed-item.dark-mode h3 {
+.dark-mode .feed-item h3 {
   color: #ffffff;
 }
 
-.feed-item.dark-mode p {
+.dark-mode .feed-item p {
   color: #cccccc;
 }
 
-.feed-item.dark-mode a {
+.dark-mode .feed-item a,
+.dark-mode .feed-list a {
   color: #0099ff;
+  text-decoration: none;
 }
 
-.feed-item.dark-mode a:hover {
-  text-decoration: none;
+.dark-mode .feed-item a:hover {
+  text-decoration: underline;
 }
